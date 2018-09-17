@@ -1,5 +1,7 @@
 # Smart Fridge Manager
 
+This is a coding exercise to implement Smart Fridge Manager interface in Java.
+
 ```java
 /**
  * Interface for the Smart Fridge Manager

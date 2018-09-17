@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"com.discoverorg.smartfridge"},{"l":"com.discoverorg.smartfridge.exceptions"},{"l":"com.discoverorg.smartfridge.storage"}]

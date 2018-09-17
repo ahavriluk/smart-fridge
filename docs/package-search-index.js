@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.oleksandr.smartfridge"},{"l":"com.oleksandr.smartfridge.exceptions"},{"l":"com.oleksandr.smartfridge.storage"}]
