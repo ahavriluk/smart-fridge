@@ -1,7 +1,8 @@
 # Smart Fridge Manager
 
 This is a coding exercise to implement Smart Fridge Manager interface in Java.
-[Java API documentation](https://ahavriluk.github.io/smart-fridge/)
+
+[Smart Fridge API Java documentation.](https://ahavriluk.github.io/smart-fridge/)
 
 ```java
 /**
