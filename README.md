@@ -4,6 +4,8 @@ This is a coding exercise to implement Smart Fridge Manager interface in Java.
 
 [Smart Fridge Manager API Java documentation.](https://ahavriluk.github.io/smart-fridge/)
 
+The Smart Fridge class doesn't run in multi-threaded environment.
+
 ```java
 /**
  * Interface for the Smart Fridge Manager

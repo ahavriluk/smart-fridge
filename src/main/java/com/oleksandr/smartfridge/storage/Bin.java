@@ -87,17 +87,19 @@ class Bin {
 		BigDecimal itemFillFactor = new BigDecimal(item.getFillFactor(),
 				mathCtx);
 
+		// Calculate a new fill factor
+		BigDecimal newFillFactor = fillFactor.add(itemFillFactor);
+		
 		// Check if Bin can accept the item. If adding an item exceed the
-		// bin's
-		// capacity, it throws an exception
-		if (fillFactor.add(itemFillFactor).compareTo(BigDecimal.ONE) > 0) {
+		// bin's capacity, it throws an exception
+		if (newFillFactor.compareTo(BigDecimal.ONE) > 0) {
 			throw new BinOverflowException(String.format(
 					"Can't add item. Not enough room for item type %d",
 					item.getType()));
 		}
 
 		// adjust the Bin's fill factor
-		fillFactor = fillFactor.add(itemFillFactor);
+		fillFactor = newFillFactor;
 
 		items.put(item.getUUID(), item);
 	}
