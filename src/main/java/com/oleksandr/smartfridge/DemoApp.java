@@ -14,7 +14,6 @@ import com.oleksandr.smartfridge.storage.Storage;
  * Smart fridge demo application. It uses a logger to output the results.
  *
  */
-
 public class DemoApp {
 
 	static HashMap<Long, String> itemTypes = new HashMap<>();
