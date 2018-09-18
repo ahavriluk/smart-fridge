@@ -6,6 +6,9 @@ This is a coding exercise to implement Smart Fridge Manager interface in Java.
 
 The Smart Fridge class doesn't run in multi-threaded environment.
 
+Item type could be Vegetables, Fruits, Meats, etc.
+Fillfactor range 0..1.
+
 ```java
 /**
  * Interface for the Smart Fridge Manager
